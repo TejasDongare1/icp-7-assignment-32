@@ -36,7 +36,11 @@ food.splice(1, 2, "Nuddles", "Rice");
 console.log(food);        
 
 
-
+console.log(`reverse() `);
+const menu =  ["Tomato", "Butter", "Chicken", "Cream"];
+console.log(menu);
+menu.reverse();
+console.log(menu);
 
 console.log(`sort() `);
 const alphabet =  ["Aarambh", "Nehal", "Aarohi", "Rohan", "Ishaant", "Aniket", "Kiran", "Priya", "Yash", "Tanvi"];

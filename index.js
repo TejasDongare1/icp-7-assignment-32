@@ -36,9 +36,19 @@ food.splice(1, 2, "Nuddles", "Rice");
 console.log(food);        
 
 
-console.log(`reverse() `);
-const menu =  ["Tomato", "Butter", "Chicken", "Cream"];
-console.log(menu);
-menu.reverse();
-console.log(menu);
 
+
+console.log(`sort() `);
+const alphabet =  ["Aarambh", "Nehal", "Aarohi", "Rohan", "Ishaant", "Aniket", "Kiran", "Priya", "Yash", "Tanvi"];
+console.log(alphabet);
+alphabet.sort();
+console.log(alphabet);
+
+console.log(`indexOf() `);
+const ind = ["Aarambh", "Nehal", "Aarohi", "Rohan", "Ishaant", "Aniket", "Kiran", "Priya", "Yash", "Tanvi"];
+const index = ind.indexOf("Priya");
+console.log(index);
+
+console.log(`JOIN() `);
+const names= ["Aarambh", "Nehal", "Aarohi", "Rohan", "Ishaant", "Aniket", "Kiran", "Priya", "Yash", "Tanvi"];
+ console.log(names.join())
